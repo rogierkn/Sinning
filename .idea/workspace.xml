@@ -2,25 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed1d4456-a230-46c3-95e6-66b373ef2ab4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sinning/autoloader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/home.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/router.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sinning/routing.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sinning/sinning.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sinning/url.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sinning/route.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sinning/server.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sinning.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/home.php" afterPath="$PROJECT_DIR$/application/controllers/home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/router.php" afterPath="$PROJECT_DIR$/application/router.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sinning/routing.php" afterPath="$PROJECT_DIR$/sinning/routing.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sinning/sinning.php" afterPath="$PROJECT_DIR$/sinning/sinning.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sinning/url.php" afterPath="$PROJECT_DIR$/sinning/url.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sinning.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="ed1d4456-a230-46c3-95e6-66b373ef2ab4" time="1369670763536" ignored="false" />
+    <file path="/Dummy.txt" changelist="ed1d4456-a230-46c3-95e6-66b373ef2ab4" time="1369765299923" ignored="false" />
     <file path="/README" changelist="ed1d4456-a230-46c3-95e6-66b373ef2ab4" time="1369670761336" ignored="false" />
     <file path="/index.php" changelist="ed1d4456-a230-46c3-95e6-66b373ef2ab4" time="1369684629631" ignored="false" />
-    <file path="/sinning.php" changelist="ed1d4456-a230-46c3-95e6-66b373ef2ab4" time="1369685323665" ignored="false" />
-    <file path="/routing.php" changelist="ed1d4456-a230-46c3-95e6-66b373ef2ab4" time="1369686347431" ignored="false" />
+    <file path="/sinning.php" changelist="ed1d4456-a230-46c3-95e6-66b373ef2ab4" time="1369774861603" ignored="false" />
+    <file path="/routing.php" changelist="ed1d4456-a230-46c3-95e6-66b373ef2ab4" time="1369774720976" ignored="false" />
     <file path="/autoloader.php" changelist="ed1d4456-a230-46c3-95e6-66b373ef2ab4" time="1369685606880" ignored="false" />
     <file path="/a.dummy" changelist="ed1d4456-a230-46c3-95e6-66b373ef2ab4" time="1369677167939" ignored="false" />
-    <file path="/url.php" changelist="ed1d4456-a230-46c3-95e6-66b373ef2ab4" time="1369686146524" ignored="false" />
+    <file path="/url.php" changelist="ed1d4456-a230-46c3-95e6-66b373ef2ab4" time="1369774920686" ignored="false" />
     <file path="/home.php" changelist="ed1d4456-a230-46c3-95e6-66b373ef2ab4" time="1369685309139" ignored="false" />
+    <file path="/router.php" changelist="ed1d4456-a230-46c3-95e6-66b373ef2ab4" time="1369774507412" ignored="false" />
+    <file path="/server.php" changelist="ed1d4456-a230-46c3-95e6-66b373ef2ab4" time="1369769494684" ignored="false" />
+    <file path="/route.php" changelist="ed1d4456-a230-46c3-95e6-66b373ef2ab4" time="1369774710449" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,16 +52,25 @@
       <file leaf-file-name="sinning.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sinning/sinning.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.7692308">
+            <state line="16" column="100" selection-start="302" selection-end="302" vertical-scroll-proportion="-12.307693">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="router.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="server.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sinning/server.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="10" selection-start="31" selection-end="31" vertical-scroll-proportion="-2.3076923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="router.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/router.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="3" selection-start="261" selection-end="261" vertical-scroll-proportion="-8.461538">
+            <state line="10" column="99" selection-start="271" selection-end="271" vertical-scroll-proportion="0.23474178">
               <folding />
             </state>
           </provider>
@@ -61,34 +79,25 @@
       <file leaf-file-name="url.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sinning/url.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="218" selection-end="218" vertical-scroll-proportion="-7.6923075">
+            <state line="11" column="0" selection-start="197" selection-end="197" vertical-scroll-proportion="-8.461538">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routing.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="routing.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sinning/routing.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="19" selection-start="176" selection-end="176" vertical-scroll-proportion="0.4225352">
+            <state line="84" column="46" selection-start="2525" selection-end="2525" vertical-scroll-proportion="-28.153847">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="autoloader.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sinning/autoloader.php">
+      <file leaf-file-name="route.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sinning/route.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="60" selection-start="216" selection-end="216" vertical-scroll-proportion="-8.461538">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="20" selection-start="133" selection-end="133" vertical-scroll-proportion="-8.461538">
+            <state line="17" column="0" selection-start="349" selection-end="349" vertical-scroll-proportion="-13.076923">
               <folding />
             </state>
           </provider>
@@ -115,12 +124,14 @@
         <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/application/routing.php" />
         <option value="$PROJECT_DIR$/public/index.php" />
-        <option value="$PROJECT_DIR$/application/controllers/home.php" />
         <option value="$PROJECT_DIR$/sinning/autoloader.php" />
-        <option value="$PROJECT_DIR$/sinning/sinning.php" />
-        <option value="$PROJECT_DIR$/application/router.php" />
-        <option value="$PROJECT_DIR$/sinning/url.php" />
+        <option value="$PROJECT_DIR$/sinning/server.php" />
+        <option value="$PROJECT_DIR$/application/controllers/home.php" />
         <option value="$PROJECT_DIR$/sinning/routing.php" />
+        <option value="$PROJECT_DIR$/sinning/url.php" />
+        <option value="$PROJECT_DIR$/sinning/sinning.php" />
+        <option value="$PROJECT_DIR$/sinning/route.php" />
+        <option value="$PROJECT_DIR$/application/router.php" />
       </list>
     </option>
   </component>
@@ -157,6 +168,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -237,7 +249,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -291,9 +302,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1036" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.0055309734" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -306,11 +316,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.0055309734" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -375,39 +386,52 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README">
+    <entry file="file://$PROJECT_DIR$/sinning/url.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="81" selection-end="81" vertical-scroll-proportion="0.045558088">
+        <state line="10" column="0" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sinning/routing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="19" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sinning/autoloader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="60" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="20" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="19" selection-start="81" selection-end="81" vertical-scroll-proportion="0.045558088" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/SPL_f.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="9" selection-start="2065" selection-end="2065" vertical-scroll-proportion="0.342723">
-          <folding />
-        </state>
+        <state line="59" column="9" selection-start="2065" selection-end="2065" vertical-scroll-proportion="0.342723" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_7.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="283" column="9" selection-start="8623" selection-end="8623" vertical-scroll-proportion="0.342723">
-          <folding />
-        </state>
+        <state line="283" column="9" selection-start="8623" selection-end="8623" vertical-scroll-proportion="0.342723" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="122" selection-end="122" vertical-scroll-proportion="0.2112676">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sinning/sinning.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.7692308">
-          <folding />
-        </state>
+        <state line="9" column="0" selection-start="122" selection-end="122" vertical-scroll-proportion="0.2112676" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sinning/autoloader.php">
@@ -419,28 +443,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="20" selection-start="133" selection-end="133" vertical-scroll-proportion="-8.461538">
+        <state line="6" column="9" selection-start="63" selection-end="63" vertical-scroll-proportion="-4.6153846">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sinning/url.php">
+    <entry file="file://$PROJECT_DIR$/sinning/server.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="218" selection-end="218" vertical-scroll-proportion="-7.6923075">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/router.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="3" selection-start="261" selection-end="261" vertical-scroll-proportion="-8.461538">
+        <state line="3" column="10" selection-start="31" selection-end="31" vertical-scroll-proportion="-2.3076923">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sinning/routing.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="19" selection-start="176" selection-end="176" vertical-scroll-proportion="0.4225352">
+        <state line="84" column="46" selection-start="2525" selection-end="2525" vertical-scroll-proportion="-28.153847">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sinning/url.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="197" selection-end="197" vertical-scroll-proportion="-8.461538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sinning/sinning.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="100" selection-start="302" selection-end="302" vertical-scroll-proportion="-12.307693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sinning/route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="349" selection-end="349" vertical-scroll-proportion="-13.076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="99" selection-start="271" selection-end="271" vertical-scroll-proportion="0.23474178">
           <folding />
         </state>
       </provider>

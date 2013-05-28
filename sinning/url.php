@@ -1,18 +1,18 @@
 <?php
 class Url
 {
-    private $data = array();
+    private $url;
 
     public function __construct()
     {
-        $this->data['url'] = $_SERVER['REQUEST_URI'];
-        if($this->data['url'] == '')
-            $this->data['url'] == '/';
+        $this->data['url'] = ltrim($_SERVER['REQUEST_URI'], '/');
+        if($this->url == '') $this->url = '/';
 
     }
 
-    public function __get($var)
+    public function get()
     {
-        return $this->data[$var];
+        return $this->url;
     }
+
 }

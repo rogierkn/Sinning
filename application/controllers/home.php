@@ -4,11 +4,11 @@ class Home
 {
     public function index()
     {
-        echo 'hi';
+       // echo 'hi';
     }
 
     public function rawr()
     {
-        echo 'rawr';
+        //echo 'rawr';
     }
 }
