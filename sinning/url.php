@@ -5,7 +5,8 @@ class Url
 
     public function __construct()
     {
-        $this->data['url'] = ltrim($_SERVER['REQUEST_URI'], '/');
+        $this->url = ltrim($_SERVER['REQUEST_URI'], '/');
+        $this->url = rtrim($this->url, '/');
         if($this->url == '') $this->url = '/';
 
     }

@@ -1,5 +1,5 @@
 <?php
-$router = new Routing;
+$route = new Routing;
 
 
 /*
@@ -18,5 +18,14 @@ $router = new Routing;
  *      $router->make('get', 'home|admin|user', 'home#index');
  *      $router->make('get', array('home', 'admin', 'user'), 'home#index');
  * This will register the three routes home, admin, and user
+ *
+ * Instead of giving a controller you can also use an anonymous function.
+ * Any parameters in the URL that are needed in the function are passed through as an array with [0] being the first and [1] the second and so on
  */
 
+$route->make('get', '/', 'home#index');
+
+$route->make('get', 'home', function()
+{
+   return 'This page is brought through an anonymous function.';
+});

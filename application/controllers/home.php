@@ -1,14 +1,9 @@
 <?php
 
-class Home
+class Controller_Home
 {
     public function index()
     {
-       // echo 'hi';
-    }
-
-    public function rawr()
-    {
-        //echo 'rawr';
+        return 'This page is visited through a controller located in application/controllers/home.php with action index()';
     }
 }
