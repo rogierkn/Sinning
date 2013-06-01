@@ -1,0 +1,5 @@
+
+
+<?php SinEngine::startSection('content'); ?>
+This is the view and is located in application/views/home.sin.php
+<?php SinEngine::stopSection(); ?>

@@ -1,0 +1,6 @@
+This file is a layout file.
+<br/><br/>
+What's below is a view:
+<br/>
+<br/>
+<?php echo SinEngine::yield('content'); ?>

@@ -1,6 +1,10 @@
 <?php
+chdir('../');
+ini_set('display_errors', 'On');
+error_reporting(E_ALL | E_STRICT);
 
-ob_start();
+
+
 
 // Get the autoloader running
 require 'autoloader.php';
@@ -10,19 +14,21 @@ $server = new Server;
 
 
 
+
 // Run routes
 $url = new Url;
-include '../application/router.php';
-// Run controller and give a Route object to $route, which will then execute the action of the route
-$route = $route->getRoute($server->REQUEST_METHOD, $url->get());
-$response = $route->getRouteReponse();
+include 'application/router.php';
 
+// Find corresponding route, execute it's action and return that as the response
+// Final type of $response is a pure string
 
+$response = $route->getRoute($server->REQUEST_METHOD, $url->get());
+
+// When we've got the whole response, echo it out to the browser
 echo $response;
 
 
-
-ob_end_flush();
+//echo microtime(true) - START_TIME;
 
 
 

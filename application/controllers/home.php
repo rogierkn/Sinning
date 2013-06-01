@@ -1,9 +1,13 @@
 <?php
 
-class Controller_Home
+class Home_Controller extends Controller
 {
-    public function index()
+
+    // The home controller
+    // Responds to path.com/home/index on a GET request
+    public function index_get()
     {
-        return 'This page is visited through a controller located in application/controllers/home.php with action index()';
+        return View::create('home')->show();
     }
+
 }
